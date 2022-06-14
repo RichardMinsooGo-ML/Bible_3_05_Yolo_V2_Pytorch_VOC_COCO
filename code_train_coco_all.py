@@ -1,3 +1,6 @@
+"""
+@author: Thang Nguyen <nhthang1009@gmail.com>
+"""
 import os
 import argparse
 import torch.nn as nn
@@ -75,7 +78,7 @@ def train(opt):
             # model.load_state_dict(torch.load(opt.pre_trained_model_path))
     else:
         if opt.pre_trained_model_type == "model":
-            # model = torch.load(opt.pre_trained_model_path, map_location=lambda storage, loc: storage)
+            model = torch.load(opt.pre_trained_model_path, map_location=lambda storage, loc: storage)
         else:
             model = Yolo(training_set[0].num_classes)
             # model.load_state_dict(torch.load(opt.pre_trained_model_path, map_location=lambda storage, loc: storage))
