@@ -2,6 +2,7 @@ import numpy as np
 from random import uniform
 import cv2
 
+
 class Compose(object):
 
     def __init__(self, transforms):

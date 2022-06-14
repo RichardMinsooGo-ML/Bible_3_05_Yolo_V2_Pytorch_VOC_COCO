@@ -1,11 +1,7 @@
-"""
-@author: Viet Nguyen <nhviet1009@gmail.com>
-"""
 import os
 from torch.utils.data import Dataset
 import xml.etree.ElementTree as ET
 from src.data_augmentation import *
-
 
 class VOCDataset(Dataset):
     def __init__(self, root_path="data/VOCdevkit", year="2007", mode="train", image_size=448, is_training = True):

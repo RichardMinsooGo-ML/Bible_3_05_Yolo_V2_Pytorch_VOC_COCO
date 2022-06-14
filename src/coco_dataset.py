@@ -1,6 +1,3 @@
-"""
-@author: Viet Nguyen <nhviet1009@gmail.com>
-"""
 import os
 from torch.utils.data import Dataset
 from src.data_augmentation import *

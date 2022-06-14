@@ -1,10 +1,6 @@
-"""
-@author: Viet Nguyen <nhviet1009@gmail.com>
-"""
 import torch
 from torch.autograd import Variable
 from torch.utils.data.dataloader import default_collate
-
 
 def custom_collate_fn(batch):
     items = list(zip(*batch))
