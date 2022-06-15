@@ -8,17 +8,19 @@ mkdir data
 - **VOC**:
   Download the voc images and annotations from [VOC2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007) or [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012). Make sure to put the files as the following structure:
   ```
-  VOCDevkit
-  ├── VOC2007
-  │   ├── Annotations  
-  │   ├── ImageSets
-  │   ├── JPEGImages
-  │   └── ...
-  └── VOC2012
-      ├── Annotations  
-      ├── ImageSets
-      ├── JPEGImages
-      └── ...
+data
+  ├──VOCDevkit
+  │  ├── VOC2007
+  │  │   ├── Annotations  
+  │  │   ├── ImageSets
+  │  │   ├── JPEGImages
+  │  │   └── ...
+  │  └── VOC2012
+  │      ├── Annotations  
+  │      ├── ImageSets
+  │      ├── JPEGImages
+  │      └── ...
+  └──COCO
   ```
   
 - **COCO**:
