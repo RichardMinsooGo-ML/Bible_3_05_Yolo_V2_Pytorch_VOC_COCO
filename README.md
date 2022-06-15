@@ -27,7 +27,8 @@ data
   
 - **COCO**:
   Download the coco images and annotations from [coco website](http://cocodataset.org/#download). Make sure to put the files as the following structure:
-  ```
+  
+```
 data
   ├──VOCDevkit
   ├──COCO
