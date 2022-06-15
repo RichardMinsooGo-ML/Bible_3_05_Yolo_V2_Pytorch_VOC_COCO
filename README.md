@@ -31,7 +31,7 @@ data
 ```
 data
   ├──VOCDevkit
-  ├──COCO
+  └──COCO
      ├── annotations
      │   ├── instances_train2014.json
      │   ├── instances_train2017.json
